@@ -1,7 +1,7 @@
 # CRFD-25
 CRFD-25 is a newly constructed dataset to advance food and drink recommendation services for railway travelers. It contains representative dishes collected from 33 high railway traffic cities. In each city, more than 200 signature dishes are manually picked and labeled from different restaurants. The data is sourced from [Meituan](https://www.waimai.meituan.com) and [Dianping](https://www.dianping.com), two of the leading online food delivery platforms in China.
 
-<img src="./website_en.jpg" style="max-width:100%;height:auto;">
+<img src="./website_en.png" style="max-width:100%;height:auto;">
 
 # 🔍 Introduction
 We have selected data from three major cities in China—Beijing, Shanghai, and Guangzhou—for both "food and drink.csv" and "restaurant.csv".<br>
