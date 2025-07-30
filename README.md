@@ -17,20 +17,20 @@ is_dinner:        Weather the food or drink is a main meal
 food_type:        The type of food or drink
 cuisine:          The cuisine of food or drink
 ```
-province
+There are 31 provincial regions in the dataset, which serve as tags to mark if food and drink suit people in each province.
 ```bash
 Beijing:          The extent to which people in Beijing like it
 Tianjin:          The extent to which people in Tianjin like it
 Hebei:            The extent to which people in Hebei like it
 ```
-spicy
+There are 4 spiciness tags in the dataset, used to mark the spiciness level of food.
 ```bash
 not_spicy:        Weather the food or drink is not_spicy
 slightly-spicy:   Weather the food or drink is slightly-spicy
 medium-spicy:     Weather the food or drink is medium-spicy
 extra-spicy:      Weather the food or drink is extra-spicy
 ```
-age
+There are 5 age tags in the dataset, used to mark whether food or drink suits people of each age group.
 ```bash
 child:            The extent to which is suitable for children
 teenager:         The extent to which is suitable for teenager
@@ -38,7 +38,7 @@ adult:            The extent to which is suitable for adults
 middle-ager:      The extent to which is suitable for middler-agers
 elderly:          The extent to which is suitable for elderly
 ```
-lunch
+There are 5 time-period tags in the dataset, used to mark whether food and drink are suitable for consumption in the corresponding time periods.
 ```bash
 breakfast:        The extent to which is suitable for breakfast
 lunch:            The extent to which is suitable for lunch
@@ -46,23 +46,23 @@ dinner:           The extent to which is suitable for dinner
 afternoon-tea:    The extent to which is suitable for afternoon-tea
 night-snack:      The extent to which is suitable for night-snack
 ```
-sex
+There are 2 gender tags in the dataset, used to mark whether food and drink suit people of each gender group.
 ```bash
 male:             The extent to which is suitable for male
 female:           The extent to which is suitable for female
 ```
-season
+There are 4 season tags in the dataset, used to mark whether food and drink are suitable for consumption in the corresponding seasons.
 ```bash
 spring:           The extent to which is suitable in spring
 summer:           The extent to which is suitable in summer
 autumn:           The extent to which is suitable in autumn
 winter:           The extent to which is suitable in winter
 ```
-food_score
+The food_score tag shows the sore of food and drink.
 ```bash
 food_score:       The score of food or drink 
 ```
-image_name
+The image_name tag shows the image names of food and drink.
 ```bash
 image_name:       The name of image 
 ```
