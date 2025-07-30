@@ -13,7 +13,7 @@ restaurant_id:    The serial number of a restaurant
 food_id:          The unique identifier of food or drink
 food_name:        The name of food or drink
 price:            The price of food or drink
-is_dinner:        Weather the food or drink is a main meal
+is_dinner:        Whether the food or drink is a main meal
 food_type:        The type of food or drink
 cuisine:          The cuisine of food or drink
 ```
@@ -25,10 +25,10 @@ Hebei:            The extent to which people in Hebei like it
 ```
 There are 4 spiciness tags in the dataset, used to mark the spiciness level of food.
 ```bash
-not_spicy:        Weather the food or drink is not_spicy
-slightly-spicy:   Weather the food or drink is slightly-spicy
-medium-spicy:     Weather the food or drink is medium-spicy
-extra-spicy:      Weather the food or drink is extra-spicy
+not_spicy:        Whether the food or drink is not_spicy
+slightly-spicy:   Whether the food or drink is slightly-spicy
+medium-spicy:     Whether the food or drink is medium-spicy
+extra-spicy:      Whether the food or drink is extra-spicy
 ```
 There are 5 age tags in the dataset, used to mark whether food or drink suits people of each age group.
 ```bash
@@ -85,7 +85,7 @@ price:                 The restaurant average price range from 1(0-20yuan)-5(70y
 ```
 The is_chain tag shows wheather the restaurant is a chain store.
 ```bash
-is_chain:              Wheather the restaurant is a chain store.
+is_chain:              Whether the restaurant is a chain store.
 ```
 
 CRFD-25 dataset is introduced in our paper which presents [LLM4Rail](https://anonymous.4open.science/r/LLM4Rail), an LLM-based railway service consulting platform.
