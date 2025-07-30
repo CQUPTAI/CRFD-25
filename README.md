@@ -4,7 +4,7 @@ CRFD-25 is a newly constructed dataset to advance food and drink recommendation 
 <img src="./illustrationofCRFD-25dataset.jpg" style="max-width:100%;height:auto;">
 
 # 🔍 Introduction
-We show "food and drink.csv" and "restaurant.csv" of three main cities in China including Beijing,Shanghai and Guangzhou. <br>
+We have selected data from three major cities in China—Beijing, Shanghai, and Guangzhou—for both "food and drink.csv" and "restaurant.csv".<br>
 ## food and drink.csv
 For the "food and drink.csv", we define 16 types of labels. For the intrinsic attribute, there are 8 attributes like city_id, restaurant_id, price, etc.
 ```bash
@@ -67,7 +67,8 @@ The image_name tag shows the image names of food and drink.
 image_name:       The name of image 
 ```
 ## restaurant.csv
-The difference lies in some intrinsic attributes of restaurants like restaurant_id, average_score, restaurant_type and so on.
+Most of the tags are the same as “food and drink.csv”. Here, only different ones are displayed.
+
 For the intrinsic attribute, there are 7 attributes like restaurant_name, city_id, restaurant_id, etc.
 ```bash
 restaurant_name:       The name of a restaurant
@@ -77,6 +78,14 @@ province_id:           The unique identifier of a province
 average_price:         The average price of a restaurant 
 average_score:         The average score of a restaurant 
 restaurant_type:       The type of a restaurant 
+```
+The price tag shows the average price range of a restaurant.
+```bash
+price:                 The restaurant average price range from 1(0-20yuan)-5(70yuan-)
+```
+The is_chain tag shows wheather the restaurant is a chain store.
+```bash
+is_chain:              Wheather the restaurant is a chain store.
 ```
 
 CRFD-25 dataset is introduced in our paper which presents [LLM4Rail](https://anonymous.4open.science/r/LLM4Rail), an LLM-based railway service consulting platform.
