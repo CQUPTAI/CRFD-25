@@ -19,12 +19,14 @@ cuisine:          The cuisine of food or drink
 ```
 There are 31 provincial regions in the dataset, which serve as tags to mark if food and drink suit people in each province.
 ```bash
+The tags are rated from 1 to 5, where 1 indicates the least recommended and 5 indicates the most recommended.
 Beijing:          The extent to which people in Beijing like it
 Tianjin:          The extent to which people in Tianjin like it
 Hebei:            The extent to which people in Hebei like it
 ```
 There are 4 spiciness tags in the dataset, used to mark the spiciness level of food.
 ```bash
+The tags are divided into 0 and 1, where 0 indicates "no" and 1 indicates "yes".
 not_spicy:        Whether the food or drink is not_spicy
 slightly-spicy:   Whether the food or drink is slightly-spicy
 medium-spicy:     Whether the food or drink is medium-spicy
@@ -32,38 +34,45 @@ extra-spicy:      Whether the food or drink is extra-spicy
 ```
 There are 5 age tags in the dataset, used to mark whether food or drink suits people of each age group.
 ```bash
-child:            The extent to which is suitable for children(age from 0-5)
-teenager:         The extent to which is suitable for teenager(age from 6-17)
-adult:            The extent to which is suitable for adults(age from 18-34)
-middle-ager:      The extent to which is suitable for middler-agers(age from 35-49)
-elderly:          The extent to which is suitable for elderly(age from 50-)
+The tags are rated from 1 to 5, where 1 indicates the least recommended and 5 indicates the most recommended.
+Child ranges from 0-5.Teenager ranges from 6-17.Adult ranges from 18-34.Middle-ager ranges from 35-49.Elderly ranges from 50-.
+child:            The extent to which food and drink is suitable for children
+teenager:         The extent to which food and drink is suitable for teenager
+adult:            The extent to which food and drink is suitable for adults
+middle-ager:      The extent to which food and drink is suitable for middler-agers
+elderly:          The extent to which food and drink is suitable for elderly
 ```
 There are 5 time-period tags in the dataset, used to mark whether food and drink are suitable for consumption in the corresponding time periods.
 ```bash
-breakfast:        The extent to which is suitable for breakfast
-lunch:            The extent to which is suitable for lunch
-dinner:           The extent to which is suitable for dinner
-afternoon-tea:    The extent to which is suitable for afternoon-tea
-night-snack:      The extent to which is suitable for night-snack
+The tags are rated from 1 to 5, where 1 indicates the least recommended and 5 indicates the most recommended.
+breakfast:        The extent to which food and drink is suitable for breakfast
+lunch:            The extent to which food and drink is suitable for lunch
+dinner:           The extent to which food and drink is suitable for dinner
+afternoon-tea:    The extent to which food and drink is suitable for afternoon-tea
+night-snack:      The extent to which food and drink is suitable for night-snack
 ```
 There are 2 gender tags in the dataset, used to mark whether food and drink suit people of each gender group.
 ```bash
-male:             The extent to which is suitable for male
-female:           The extent to which is suitable for female
+The tags are rated from 1 to 5, where 1 indicates the least recommended and 5 indicates the most recommended.
+male:             The extent to which food and drink is suitable for male
+female:           The extent to which food and drink is suitable for female
 ```
 There are 4 season tags in the dataset, used to mark whether food and drink are suitable for consumption in the corresponding seasons.
 ```bash
-spring:           The extent to which is suitable in spring
-summer:           The extent to which is suitable in summer
-autumn:           The extent to which is suitable in autumn
-winter:           The extent to which is suitable in winter
+The tags are rated from 1 to 5, where 1 indicates the least recommended and 5 indicates the most recommended.
+spring:           The extent to which food and drink is suitable in spring
+summer:           The extent to which food and drink is suitable in summer
+autumn:           The extent to which food and drink is suitable in autumn
+winter:           The extent to which food and drink is suitable in winter
 ```
 The food_score tag shows the sore of food and drink.
 ```bash
+The tag is rated from 1 to 5, where 1 indicates the least recommended and 5 indicates the most recommended.
 food_score:       The score of food or drink 
 ```
 The image_name tag shows the image names of food and drink.
 ```bash
+The image_name format: 1-1-1.jpg (in the order of city-restaurant-dish)
 image_name:       The name of image 
 ```
 ## restaurant.csv
@@ -81,10 +90,12 @@ restaurant_type:       The type of a restaurant
 ```
 The price tag shows the average price range of a restaurant.
 ```bash
-price:                 The restaurant average price range from 1(0-20yuan)-5(70yuan-)
+The tags are divided into 5 tiers, where Tier 1 is 0-20, Tier 2 is 20-30, Tier 3 is 30-50, Tier 4 is 40-70 and Tier 5 is above 70.
+price:                 The restaurant average price range
 ```
 The is_chain tag shows wheather the restaurant is a chain store.
 ```bash
+The tags are divided into 0 and 1, where 0 indicates "no" and 1 indicates "yes".
 is_chain:              Whether the restaurant is a chain store.
 ```
 
