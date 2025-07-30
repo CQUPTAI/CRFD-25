@@ -32,11 +32,11 @@ extra-spicy:      Weather the food or drink is extra-spicy
 ```
 There are 5 age tags in the dataset, used to mark whether food or drink suits people of each age group.
 ```bash
-child:            The extent to which is suitable for children
-teenager:         The extent to which is suitable for teenager
-adult:            The extent to which is suitable for adults
-middle-ager:      The extent to which is suitable for middler-agers
-elderly:          The extent to which is suitable for elderly
+child:            The extent to which is suitable for children(age from 0-5)
+teenager:         The extent to which is suitable for teenager(age from 6-17)
+adult:            The extent to which is suitable for adults(age from 18-34)
+middle-ager:      The extent to which is suitable for middler-agers(age from 35-49)
+elderly:          The extent to which is suitable for elderly(age from 50-)
 ```
 There are 5 time-period tags in the dataset, used to mark whether food and drink are suitable for consumption in the corresponding time periods.
 ```bash
@@ -67,7 +67,19 @@ The image_name tag shows the image names of food and drink.
 image_name:       The name of image 
 ```
 ## restaurant.csv
-The difference lies in some intrinsic attributes of restaurants like restaurant_id, average_score, restaurant_type and so on.CRFD-25 dataset is introduced in our paper which presents [LLM4Rail](https://anonymous.4open.science/r/LLM4Rail), an LLM-based railway service consulting platform.
+The difference lies in some intrinsic attributes of restaurants like restaurant_id, average_score, restaurant_type and so on.
+For the intrinsic attribute, there are 7 attributes like restaurant_name, city_id, restaurant_id, etc.
+```bash
+restaurant_name:       The name of a restaurant
+city_id:               The unique identifier of a city
+restaurant_id:         The unique identifier of a restaurant 
+province_id:           The unique identifier of a province 
+average_price:         The average price of a restaurant 
+average_score:         The average score of a restaurant 
+restaurant_type:       The type of a restaurant 
+```
+
+CRFD-25 dataset is introduced in our paper which presents [LLM4Rail](https://anonymous.4open.science/r/LLM4Rail), an LLM-based railway service consulting platform.
 
 # 📋 Acquire The Complete Dataset 
 If you want to acquire the complete dataset, please send an email to xxxxx
