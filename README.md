@@ -35,7 +35,7 @@ extra-spicy:      Whether the food or drink is extra-spicy
 There are 5 age tags in the dataset, used to mark whether food or drink suits people of each age group.
 ```bash
 The tags are rated from 1 to 5, where 1 indicates the least recommended and 5 indicates the most recommended.
-Child ranges from 0-5. Teenager ranges from 6-17. Adult ranges from 18-34. Middle-ager ranges from 35-49. Elderly ranges from 50-.
+Child ranges from 0-5. Teenager ranges from 6-17. Adult ranges from 18-34. Middle-ager ranges from 35-49. Elderly is above 50.
 child:            The extent to which food and drink is suitable for children
 teenager:         The extent to which food and drink is suitable for teenager
 adult:            The extent to which food and drink is suitable for adults
